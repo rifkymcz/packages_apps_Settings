@@ -99,7 +99,6 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
-import com.extra.settings.fragments.ClockDateSettings;
 import com.extra.settings.fragments.GeneralTweaks;
 import com.extra.settings.fragments.GesturesSettings;
 import com.extra.settings.fragments.HeadsUpSettings;
@@ -210,7 +209,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(BluetoothDashboardFragment.class);
 
         //EvoX Additions
-        addIndex(ClockDateSettings.class);
         addIndex(GeneralTweaks.class);
         addIndex(GesturesSettings.class);
         addIndex(HeadsUpSettings.class);
